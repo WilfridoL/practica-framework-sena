@@ -1,0 +1,68 @@
+export const productosDestacados = [
+  {
+    id: 1,
+    name: "Laptop Gaming ASUS ROG",
+    desc: "Procesador Intel i7, 16GB RAM, RTX 3060, SSD 512GB.",
+    img: "../img/productos/laptop-gamer.jpg",
+    precio: '4.500.000'
+  },
+  {
+    id: 2,
+    name: "Smartphone Samsung S25",
+    desc: "Última generación con cámara de 200MP.",
+    img: "../img/productos/smartphone.png",
+    precio: '3.800.000'
+  },
+  {
+    id: 3,
+    name: "Auriculares Inalámbricos",
+    desc: "Calidad Hi-Fi y cancelación de ruido.",
+    img: "../img/productos/audifonos.webp",
+    precio: '450.000'
+  },
+  {
+    id: 4,
+    name: "Monitor UltraWide LG 34''",
+    desc: "Resolución QHD, 144Hz, compatible con G-Sync/FreeSync.",
+    img: "../img/productos/monitor.jpg",
+    precio: '2.100.000'
+  },
+  {
+    id: 5,
+    name: "Teclado Mecánico RGB",
+    desc: "Switches rojos, retroiluminación RGB, construcción metálica.",
+    img: "../img/productos/teclado.png",
+    precio: '350.000'
+  },
+  {
+    id: 6,
+    name: "Silla Gamer Ergonomica",
+    desc: "Diseño ergonómico, reposabrazos ajustables, soporte lumbar.",
+    img: "../img/productos/silla-gamer.webp",
+    precio: '1.200.000'
+  }
+];
+
+export const productosGaming = [
+  {
+    id: 1,
+    name: "PlayStation 5",
+    desc: "Consola de última generación con SSD ultrarrápido y gráficos 4K.",
+    img: "../img/productos/ps5.webp",
+    precio: "3.200.000"
+  },
+  {
+    id: 2,
+    name: "Xbox Series X",
+    desc: "La consola más potente de Xbox, con 1TB SSD y juegos en 4K/120fps.",
+    img: "../img/productos/xbox-series-x.jpg",
+    precio: "3.100.000"
+  },
+  {
+    id: 3,
+    name: "The Legend of Zelda: Tears of the Kingdom",
+    desc: "Videojuego exclusivo de Nintendo Switch, aventura épica en mundo abierto.",
+    img: "../img/productos/zelda-totk.webp",
+    precio: "280.000"
+  }
+];
