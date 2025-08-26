@@ -125,16 +125,16 @@
                 <div class="two fields">
                     <div class="field">
                         <label>Nombre</label>
-                        <input type="text" placeholder="Nombre completo">
+                        <input type="text" placeholder="Nombre completo" required>
                     </div>
                     <div class="field">
                         <label>Email</label>
-                        <input type="email" placeholder="Correo electrónico">
+                        <input type="email" placeholder="Correo electrónico" required>
                     </div>
                 </div>
                 <div class="field">
                     <label>Rol</label>
-                    <select class="ui dropdown">
+                    <select class="ui dropdown" required>
                         <option value="">Seleccione un rol</option>
                         <option value="admin">Administrador</option>
                         <option value="user">Usuario</option>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="field">
                     <div class="ui checkbox">
-                        <input type="checkbox">
+                        <input type="checkbox" required>
                         <label>Aceptar términos y condiciones</label>
                     </div>
                 </div>
@@ -173,11 +173,11 @@
                     <form class="ui form">
                         <div class="field">
                             <label>Nombre del evento</label>
-                            <input type="text" placeholder="Nombre del evento">
+                            <input type="text" placeholder="Nombre del evento" required>
                         </div>
                         <div class="field">
                             <label>Fecha y hora</label>
-                            <input type="datetime-local">
+                            <input type="datetime-local" required>
                         </div>
                         <button class="ui primary button" type="submit">Agregar evento</button>
                         <button class="ui secundary basic button btn-modal-salir" type="button">Salir</button>

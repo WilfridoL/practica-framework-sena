@@ -15,7 +15,7 @@
         <header class="container-fluid">
             <!-- header -->
             <div class="d-flex w-100 justify-content-between align-items-center py-2">
-                <a href="../index.html" class="text-decoration-none text-dark">
+                <a href="../index.html" class="text-decoration-none text-dark w-auto logo">
                     <h2 class="fs-3 m-0">Tech Store</h2>
                 </a>
 
@@ -50,9 +50,9 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Consolas</a></li>
-                                    <li><a class="dropdown-item" href="#">Gaming</a></li>
+                                    <li><a class="dropdown-item" href="#card-container-gaming">Gaming</a></li>
                                     <li><a class="dropdown-item" href="#">Juegos</a></li>
-                                    <li><a class="dropdown-item" href="#">Componentes</a></li>
+                                    <li><a class="dropdown-item" href="#card-container-componentes">Componentes</a></li>
                                     <li><a class="dropdown-item" href="#">Celulares</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
@@ -96,12 +96,11 @@
                         <form>
                             <div class="mb-3">
                                 <label for="loginEmail" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="loginEmail"
-                                    placeholder="ejemplo@email.com">
+                                <input type="email" class="form-control" id="loginEmail" placeholder="ejemplo@email.com" required>
                             </div>
                             <div class="mb-3">
                                 <label for="loginPassword" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" id="loginPassword" placeholder="********">
+                                <input type="password" class="form-control" id="loginPassword" placeholder="********" required>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Ingresar</button>
                         </form>
@@ -127,22 +126,22 @@
                         <form>
                             <div class="mb-3">
                                 <label for="registerName" class="form-label">Nombre completo</label>
-                                <input type="text" class="form-control" id="registerName" placeholder="Tu nombre">
+                                <input type="text" class="form-control" id="registerName" placeholder="Tu nombre" required>
                             </div>
                             <div class="mb-3">
                                 <label for="registerEmail" class="form-label">Correo electrónico</label>
                                 <input type="email" class="form-control" id="registerEmail"
-                                    placeholder="ejemplo@email.com">
+                                    placeholder="ejemplo@email.com" required>
                             </div>
                             <div class="mb-3">
                                 <label for="registerPassword" class="form-label">Contraseña</label>
                                 <input type="password" class="form-control" id="registerPassword"
-                                    placeholder="********">
+                                    placeholder="********" required>
                             </div>
                             <div class="mb-3">
                                 <label for="registerPassword2" class="form-label">Repetir Contraseña</label>
                                 <input type="password" class="form-control" id="registerPassword2"
-                                    placeholder="********">
+                                    placeholder="********" required>
                             </div>
                             <button type="submit" class="btn btn-success w-100">Registrar</button>
                         </form>
@@ -263,10 +262,9 @@
                 </section>
 
                 <!-- *********************** LO MÁS VENDIDO *********************** -->
-                <section class="container my-5">
+                <section class="container my-2">
                     <h2 class="fs-3 mb-4">Lo más vendido</h2>
                     <div class="row g-4">
-                        <!-- Card de producto -->
                         <div class="col-12 col-md-4">
                             <div class="card h-100 shadow-sm">
                                 <img src="../img/productos/laptop-gamer.jpg" class="card-img-top img-top" alt="Laptop Gamer">
@@ -317,9 +315,14 @@
                     </div>
                 </section>
                 <!-- *********************** PRODUCTOS GAMING *********************** -->
-                <section class="container">
+                <section class="container my-2">
                     <h2 class="fs-3">Productos Gaming</h2>
                     <div class="row g-4" id="card-container-gaming"></div>
+                </section>
+                <!-- *********************** PRODUCTOS GAMING *********************** -->
+                <section class="container my-2">
+                    <h2 class="fs-3">Componentes</h2>
+                    <div class="row g-4" id="card-container-componentes"></div>
                 </section>
             </div>
         </main>

@@ -1,13 +1,14 @@
-import { productosDestacados, productosGaming } from "./productos.js";
+import { productosComponentes, productosDestacados, productosGaming } from "./productos.js";
 
 // pagina bootstrap
 const contenedorProductos = document.getElementById("card-container");
 const contenedorGaming = document.getElementById("card-container-gaming");
+const contenedorComponentes = document.getElementById("card-container-componentes");
 function renderCards(productos, contenedor) {
   contenedor.innerHTML = ""; 
   productos.forEach(event => {
     const { id, name, desc, precio, img } = event;
-    console.log(id, name, desc, precio, img);
+    // console.log(id, name, desc, precio, img);
     
     const card = `
       <div class="col-md-4 col-sm-6" id="card-${id}">
@@ -32,3 +33,4 @@ function renderCards(productos, contenedor) {
 }
 renderCards(productosDestacados, contenedorProductos);
 renderCards(productosGaming, contenedorGaming);
+renderCards(productosComponentes, contenedorComponentes);

@@ -66,3 +66,48 @@ export const productosGaming = [
     precio: "280.000"
   }
 ];
+
+export const productosComponentes = [
+  {
+    id: 1,
+    name: "Tarjeta Gráfica NVIDIA RTX 3080",
+    desc: "Rendimiento extremo para juegos en 4K y creación de contenido.",
+    img: "../img/productos/rtx3080.png",
+    precio: "2.500.000"
+  },
+  {
+    id: 2,
+    name: "Procesador AMD Ryzen 9 5900X",
+    desc: "12 núcleos y 24 hilos, ideal para gaming y tareas intensivas.",
+    img: "../img/productos/ryzen9.webp",
+    precio: "1.800.000"
+  },
+  {
+    id: 3,
+    name: "Memoria RAM Corsair Vengeance 32GB",
+    desc: "32GB DDR4 a 3200MHz, rendimiento confiable para multitarea.",
+    img: "../img/productos/ram32gb.webp",
+    precio: "600.000"
+  },
+  {
+    id: 4,
+    name: "Disco SSD Samsung 970 EVO Plus 1TB",
+    desc: "Almacenamiento ultrarrápido NVMe para tiempos de carga reducidos.",
+    img: "../img/productos/ssd1tb.webp",
+    precio: "450.000"
+  },
+  {
+    id: 5,
+    name: "Placa Base ASUS ROG Strix B550-F",
+    desc: "Compatible con AMD Ryzen, PCIe 4.0, WiFi 6 integrado.",
+    img: "../img/productos/placa-base.png",
+    precio: "900.000"
+  },
+  {
+    id: 6,
+    name: "Fuente de Poder EVGA 750W G5",
+    desc: "Eficiencia 80 Plus Gold, modular, ideal para sistemas gaming.",
+    img: "../img/productos/fuente-poder.png",
+    precio: "400.000"
+  },
+]; 

@@ -6,32 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="container d-flex justify-content-center flex-column align-items-center gap-4 my-5">
-        <h1>Seleccionar pagina</h1>
-        <div class="container d-flex justify-content-center gap-3 flex-wrap ">
-            <a href="./pag-bootstrap/index.html" class="text-decoration-none text-dark" target="_blank">
-                <div class="card" style="width: 18rem;">
-                <img src="./img/tech-store.png" class="card-img-top w-100" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Tienda Online</h5>
-                    <p class="card-text">Pagina echa con Bootstrap</p>
-                </div>
-            </div>
-            </a>
-            <a href="./pag-semantic/index.html" class="text-decoration-none text-dark" target="_blank">
-                <div class="card" style="width: 18rem;">
-                <img src="./img/dasboard.png" class="card-img-top w-100" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dashboard</h5>
-                    <p class="card-text">Pagina echa con Semantic UI</p>
-                </div>
-            </div>
-            </a>
+    <div class="container text-center my-5">
+  <h1 class="fw-bold mb-4">Seleccionar Página</h1>
+
+  <div class="row justify-content-center g-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="./pag-bootstrap/index.html" class="text-decoration-none text-dark" target="_blank">
+        <div class="card shadow-lg border-0 h-100 card-hover">
+          <img src="./img/tech-store.png" class="card-img-top p-3" alt="Tienda Online">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Tech Store</h5>
+            <p class="card-text text-muted">Página desarrollada con <strong>Bootstrap</strong></p>
+          </div>
         </div>
+      </a>
     </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <a href="./pag-semantic/index.html" class="text-decoration-none text-dark" target="_blank">
+        <div class="card shadow-lg border-0 h-100 card-hover">
+          <img src="./img/dasboard.png" class="card-img-top p-3" alt="Dashboard">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Dashboard</h5>
+            <p class="card-text text-muted">Página desarrollada con <strong>Semantic UI</strong></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
     <script src="./js/bootstrap.js"></script>
 </body>
 
