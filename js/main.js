@@ -1,4 +1,4 @@
-import { productosComponentes, productosDestacados, productosGaming } from "./productos.js";
+import { ofertas, productosComponentes, productosDestacados, productosGaming } from "./productos.js";
 
 // pagina bootstrap
 const contenedorProductos = document.getElementById("card-container");
@@ -31,6 +31,8 @@ function renderCards(productos, contenedor) {
     contenedor.innerHTML += card;
   });
 }
+
+
 renderCards(productosDestacados, contenedorProductos);
 renderCards(productosGaming, contenedorGaming);
 renderCards(productosComponentes, contenedorComponentes);

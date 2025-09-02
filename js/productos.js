@@ -111,3 +111,38 @@ export const productosComponentes = [
     precio: "400.000"
   },
 ]; 
+
+export const ofertas = [
+    {
+      id: 1,
+      name: "Monitor Gamer Curvo 27''",
+      desc: "144Hz, 1ms, Full HD, ideal para juegos competitivos.",
+      img: "https://http2.mlstatic.com/D_NQ_NP_982161-MLU70713701482_072023-O.webp",
+      precio: 1200000,
+      oferta: 950000
+    },
+    {
+      id: 2,
+      name: "Teclado Mecánico RGB",
+      desc: "Switches rojos, retroiluminación personalizable.",
+      img: "../../img/productos/teclado.png",
+      precio: 280000,
+      oferta: 199000
+    },
+    {
+      id: 3,
+      name: "Consola PlayStation 5",
+      desc: "Edición digital, ultra rápido con SSD y DualSense.",
+      img: "../../img/productos/ps5.webp",
+      precio: 3500000,
+      oferta: 2990000
+    },
+    {
+      id: 4,
+      name: "Mouse Gamer Logitech G502",
+      desc: "Sensor HERO 25K, 11 botones programables.",
+      img: "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g502x-plus/gallery/g502x-plus-gallery-1-white.png",
+      precio: 420000,
+      oferta: 329000
+    }
+  ];
