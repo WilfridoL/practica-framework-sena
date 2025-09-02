@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="ui sidebar inverted vertical menu">
+      <a class="item" href="../index.html"><i class="home icon"></i> Dashboard</a>
+      <a class="item" href="./usuario.html"><i class="users icon"></i> Usuarios</a>
+      <a class="item active"><i class="shopping cart icon"></i> Pedidos</a>
+      <a class="item" href="reportes.html"><i class="chart bar icon"></i> Reportes</a>
+      <a class="item" href="configuracion.html"><i class="cog icon"></i> Configuración</a>
+  </div>
+
+  <div class="pusher">
+    <div class="ui top attached menu">
+        <a class="item" id="menu-toggle">
+            <i class="sidebar icon"></i> Menú
+        </a>
+        <div class="right menu">
+            <div class="item">
+                <i class="user circle icon"></i> Admin
+            </div>
+        </div>
+    </div>
+
+    <div class="ui container" style="margin-top:2em;">
+      <h2 class="ui header"><i class="shopping cart icon"></i> Pedidos</h2>
+      <table class="ui celled table">
+        <thead>
+          <tr>
+            <th>ID Pedido</th>
+            <th>Cliente</th>
+            <th>Producto</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#001</td>
+            <td>Juan Pérez</td>
+            <td>Laptop ASUS</td>
+            <td><div class="ui label green">Entregado</div></td>
+            <td><button class="ui button">Detalles</button></td>
+          </tr>
+          <tr>
+            <td>#002</td>
+            <td>Ana Gómez</td>
+            <td>PS5</td>
+            <td><div class="ui label yellow">Pendiente</div></td>
+            <td><button class="ui button">Detalles</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    $('#menu-toggle').on('click', function() {
+      $('.ui.sidebar').sidebar('toggle');
+    });
+  </script>
+</body>
+</html>
